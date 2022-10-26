@@ -1,0 +1,884 @@
+*{
+    box-sizing: border-box;
+}
+
+.whatsapp{
+    position: fixed;
+    z-index: 1;
+    right: 20px;
+    top: 600px;
+}
+
+
+body{
+
+    background-color: rgba(255, 192, 203, 0.267);
+    /* margin: 0;
+    padding: 0; */
+    /* border: 1px solid red; */
+     overflow-x: hidden;
+    
+}
+
+
+#cabecera{
+    min-width: 320px;
+    padding: 0;
+}
+
+header{
+    /* border: 1px solid red; */
+    background: rgb(10, 93, 127);
+    height: 20em; 
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+} 
+
+header img{
+    width: 360px;
+    position: relative;
+    bottom: 20px;
+    margin: 0 auto;
+    
+}
+
+
+
+header nav{
+    
+    border: 2px solid rgb(209, 172, 64);
+    border-radius: 50px;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    align-items: center;
+    height: 20px;
+    position: relative;
+    top: 220px;
+    margin: 0 auto;
+    
+    /* max-width: 180px; */
+}   
+
+
+header nav a{
+
+    margin: 0.8em;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    font-family:'Roboto';
+    font-weight: 400;
+    position: relative;
+    
+
+}
+
+header a:hover{
+    color: pink;
+}
+
+
+/* ----------------------------------------------------------- */
+/* ----------------------------------------------------------- */
+/* ------------------ HEADER --------------------------------- */
+
+#portada{
+    /* border: 3px solid rgb(255, 0, 0); */
+    margin: 10px 10px;
+    background-color:rgb(255, 255, 255);
+    bottom: -15px;
+    border-radius: 5px;
+    position: relative; 
+    bottom: -15px;
+
+}
+
+.portada1{
+
+    /* border: 3px solid rgb(255, 0, 0); */
+    text-align: center;
+    justify-content:center;
+    
+    
+}
+
+
+.portada1 img{
+    
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    border: 2px solid rgb(10, 93, 127);
+    margin: 2em 0;   
+}
+
+
+
+.portada1 h2{
+
+    line-height: 1em;
+    font-size: 3em;
+    font-family: 'Roboto';
+    font-weight: 300;
+   
+}
+
+.portada1 h3{
+
+    line-height: 2em;
+    font-family: 'Roboto';
+    font-weight: 100;
+    
+    
+}
+
+.portada1 h4{
+
+    line-height: 1.5em;
+    font-style: italic;
+    font-family: 'Roboto';
+    font-weight: 400;
+    padding: 0.8em 0;
+}
+
+section div hr{
+    
+    background-color: rgb(10, 93, 127);;
+    border: #034200;
+    width: 4em;
+    height: 0.1em;
+    border-radius: 1em;
+    margin-top: 20px;
+}
+
+/* ----------------------------------------------------------- */
+/* ----------------------------------------------------------- */
+/* ------------------ portada --------------------------------- */
+
+
+#terapeuta{
+    
+    /* border: 3px solid rgb(255, 0, 0); */
+    margin: 0px 10px;
+    background-color:rgb(255, 255, 255);
+    text-align: center;
+    justify-content:center;
+    align-items: center; 
+    position: relative; 
+    bottom: -15px;
+    border-radius: 5px;
+
+}
+
+#terapeuta h2{
+    /* border: 3px solid rgb(255, 0, 0); */
+    line-height: 1.3em;
+    font-size: 1em;
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 100;
+    text-align: center;
+    padding: 50px 0;
+    
+   
+}
+
+/* ----------------------------------------------------------- */
+/* ----------------------------------------------------------- */
+/* ------------------ terapeuta --------------------------------- */
+
+
+.wrapper{
+
+    display: grid;
+
+}
+#conoceme{
+    
+    /* border: 3px solid rgb(255, 0, 0); */
+    margin: 10px 10px;
+    background-color:rgb(255, 255, 255);
+    /* height: 30em; */
+    text-align: center;
+    justify-content:center;
+    align-items: center; 
+    position: relative; 
+    bottom: -15px;
+    border-radius: 5px;
+    padding-bottom: 50px;
+
+    
+
+}
+
+#conoceme h2{
+    /* border: 3px solid rgb(255, 0, 0); */
+    line-height: 1em;
+    font-size: 2em;
+    font-family: 'Roboto';
+    font-weight: 400;
+    padding: 30px 0;
+   
+}
+
+#conoceme p{
+
+    /* border: 1px solid rgb(255, 0, 0); */
+    line-height: 1.5em;
+    font-size: 1.0em;
+    font-family: 'Roboto';
+    font-weight: 200;
+    padding: 15px 0;
+    margin: 0 25px;
+
+}
+
+/* ----------------------------------------------------------- */
+/* ----------------------------------------------------------- */
+/* ------------------ conoceme --------------------------------- */
+
+
+
+#misPericias{
+    /* border: 3px solid rgb(255, 0, 0); */
+    margin: 10px 10px;
+    background-color:rgb(255, 255, 255);
+    text-align: center;
+    justify-content:center;
+    align-items: center; 
+    position: relative; 
+    bottom: -15px;
+    border-radius: 5px;
+    padding-bottom: 50px;
+
+}
+
+#misPericias h2{
+    /* border: 3px solid rgb(255, 0, 0); */
+    line-height: 1em;
+    font-size: 2em;
+    font-family: 'Roboto';
+    font-weight: 400;
+    padding: 30px 0;
+   
+}
+
+#misPericias h3{
+
+    font-family: 'Roboto';
+    font-size: 1.2em;
+    font-weight: 300;
+    line-height: 1.5em;
+    margin: 15px 0;
+}
+
+#misPericias p{
+
+    /* border: 1px solid rgb(255, 0, 0); */
+    line-height: 1.2em;
+    font-size: 1.0em;
+    font-family: 'Roboto';
+    font-weight: 200;
+    padding: 10px 0;
+    margin: 0 10px;
+   
+
+}
+
+
+
+/* ----------------------------------------------------------- */
+/* ----------------------------------------------------------- */
+/* ------------------ Pericias --------------------------------- */
+
+
+#servicios{
+    /* border: 3px solid rgb(255, 0, 0); */
+    margin: 10px 10px;
+    background-color:rgb(255, 255, 255);
+    text-align: center;
+    align-items: center;
+    position: relative; 
+    bottom: -15px;
+    border-radius: 5px;
+    padding-bottom: 50px;
+
+}
+
+
+
+
+#servicios .videollamada{
+
+    width: 100px;
+    margin: 10px 0px;
+}
+
+section .separador2{
+        
+    width: 5em;
+    height: 0.1em;
+    border-radius: 1em;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+
+#servicios .llamada{
+
+    width: 65px;
+    margin: 10px 0px;
+}
+
+#servicios h2{
+    
+    /* border: 3px solid rgb(255, 0, 0); */
+    line-height: 1em;
+    font-size: 2em;
+    font-family: 'Roboto';
+    font-weight: 400;
+    padding: 30px 0;
+   
+}
+
+#servicios p{
+
+    /* border: 1px solid rgb(255, 0, 0); */
+    line-height: 1.5em;
+    font-size: 1.2em;
+    font-family: 'Roboto';
+    font-weight: 200;
+    padding: 10px 0;
+
+}
+
+/* ----------------------------------------------------------- */
+/* ----------------------------------------------------------- */
+/* ------------------ servicios --------------------------------- */
+
+#contacto{
+
+   /* border: 3px solid rgb(255, 0, 0); */
+   margin: 10px 10px;
+   background-color:rgb(255, 255, 255);
+   text-align: center;
+   display: flex;
+   justify-content:center;
+   align-items: center; 
+   position: relative; 
+   bottom: -15px;
+   border-radius: 5px;
+   padding-bottom: 50px;
+}
+
+#contacto h2{
+    /* border: 3px solid rgb(255, 0, 0); */
+    line-height: 1em;
+    font-size: 2em;
+    font-family: 'Roboto';
+    font-weight: 400;
+    position: relative;
+    margin: 30px 10px;
+}
+
+
+
+form{
+
+    /* border: 3px solid red; */
+    font-size: 1.2em;
+
+}
+
+ul{
+    font-family: 'Roboto';
+   
+   
+}
+
+label{
+    /* border: 3px solid blue; */
+    display: inline-block;
+    width: 6em;
+    text-align: left;
+    padding: 0.2em 0;
+    font-weight: 100;
+    margin: 0.5em 0;
+    
+}
+
+input{
+    /* border: 10px solid red; */
+    margin: 0em 1em;
+    border-radius: 10px;
+    border: 1px solid rgb(10, 93, 127);
+}
+
+.submit{
+    
+    /* font-family: 'Roboto'; */
+    font-size: 1em;
+    padding: 0.5em 2em;
+    color: rgb(255, 255, 255);
+    background-color: rgb(10, 93, 127);
+    /* margin: 0em 2.9em; */
+    border: 1px solid rgb(10, 93, 127);
+    border-radius: 10px; 
+    margin: 30px 0;
+   
+  
+
+
+}
+
+.submit:hover{
+
+    background-color: rgb(2, 74, 103);
+}
+
+
+.instagram{
+    display: flex;
+    justify-content: center;
+    margin: 50px 10px;
+    background-color: white;
+    margin: 10px 10px;
+    align-items: center; 
+    position: relative; 
+    bottom: -15px;
+    border-radius: 5px;
+    padding-bottom: 50px;
+}
+
+/* ----------------------------------------------------------- */
+/* ----------------------------------------------------------- */
+/* ------------------ contacto --------------------------------- */
+
+footer{
+
+    /* border: 3px solid rgb(255, 0, 0); */
+    height: 10em;
+    background-color:rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    /* top: 15px; */
+   
+}
+
+
+footer .visita{
+
+    /* border: 1px solid rgb(255, 0, 0); */
+    color: white;
+    line-height: 1em;
+    font-size: 1em;
+    font-family: 'Roboto';
+    font-weight: 100;
+    margin: 1em 0; 
+    
+}
+
+.logos-rrss{
+
+    /* border: 1px solid rgb(255, 0, 0); */
+    display: flex;
+    align-items: center;
+}
+
+.logos-rrss img{
+
+    width: 2em;
+    margin: 0.5em 1em;
+
+    
+    
+}
+
+.copy{
+
+    /* border: 1px solid rgb(255, 0, 0); */
+    color: white;
+    /* margin: 0.3em 0; */
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto';
+    margin:0;
+    
+}
+
+
+
+.copy p{
+    font-family: 'Roboto';
+    font-size: 10px;
+    /* margin: 1em 0; */
+    padding-left: 0.5em;
+    font-weight: 300;
+    margin:0;
+
+}
+
+
+
+@media (min-width:510px) {
+    
+
+    
+    header{
+        
+        height: 25em; 
+        
+    } 
+    
+    header img{
+        width: 900px;
+    
+    }
+    
+    
+    
+    header nav{
+
+        top: 345px;
+        margin: 0 auto;
+        width: 680px;
+    }   
+    
+    
+    header nav a{
+        
+        margin: 40px;
+        font-weight: 400;
+        
+    
+    }
+    
+
+    .portada1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin:100px;
+       
+    }
+
+    #portada{
+        /* border: 3px solid rgb(255, 0, 0); */
+        margin: 10px 10px;
+        background-color:rgb(255, 255, 255);
+        bottom: -15px;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        position: relative;
+        top: 15px;
+        /* padding: 5px 0; */
+    }
+    
+    .portada1{
+        
+        position: relative;
+        bottom: 30px;
+    }
+
+    .portada1 img{
+    
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        border: 2px solid rgb(10, 93, 127);
+        margin: 4em 1em;   
+    }
+
+    .portada1 h2{
+    
+        /* line-height: 1em; */
+        font-size: 4em;
+        font-family: 'Roboto';
+        font-weight: 300;
+        margin: 0 0.5em;
+        
+        
+       
+    }
+    
+    .portada1 h3{
+    
+        /* line-height: 5em; */
+        font-family: 'Roboto';
+        font-weight: 100;
+        padding: 0 30px;
+        font-size: 1.5em;
+        position: absolute;
+        bottom: 64px;
+    }
+    
+    .portada1 h4{
+    
+        /* line-height: 1.5em; */
+        font-style: italic;
+        font-family: 'Roboto';
+        font-weight: 100;
+        margin: 0em 1em;
+       
+    
+    }
+
+
+    .wrapper1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    
+
+    }
+
+
+    #conoceme{
+        margin-top: 10px;
+        margin-right: 5px;
+        margin-left: 10px;
+        margin-bottom: 2px;
+        
+
+    }
+
+    #conoceme p{
+
+        /* border: 1px solid rgb(255, 0, 0); */
+        line-height: 2em;
+        font-size: 1.0em;
+        font-family: 'Roboto';
+        font-weight: 200;
+        padding: 60px 0;
+        margin: 0 25px;
+    
+    }
+
+    #misPericias{
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-left: 5px;
+        margin-bottom: 2px;
+    }
+
+    #servicios{
+        
+        padding: 30px;
+    
+    }
+
+    .servicios{
+
+        display:flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .servicios hr{
+
+        margin: 50px;
+    }
+
+    .servicios p{
+
+       margin: 0px 40px;
+
+    
+    }
+
+    @media (min-width:700px){
+
+    header{
+        
+        height: 25em; 
+        
+    } 
+    
+    header img{
+        width: 600px;
+    
+    }
+    
+    
+    
+    header nav{
+
+        top: 298px;
+        margin: 0 auto;
+        width: 680px;
+    }   
+    
+    
+    header nav a{
+        
+        margin: 40px;
+        font-weight: 400;
+        
+    
+    }
+    
+
+    .portada1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 60px 0 0 0;
+       
+    }
+
+    #portada{
+        /* border: 3px solid rgb(255, 0, 0); */
+        margin: 10px 10px;
+        background-color:rgb(255, 255, 255);
+        bottom: -15px;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        position: relative;
+        top: 15px;
+        /* padding: 5px 0; */
+    }
+    
+    .portada1{
+        
+        position: relative;
+        bottom: 30px;
+    }
+
+    .portada1 img{
+    
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        border: 2px solid rgb(10, 93, 127);
+        /* margin: 4em 1em;    */
+    }
+
+    .portada1 h2{
+    
+        /* line-height: 1em; */
+        font-size: 4em;
+        font-family: 'Roboto';
+        font-weight: 300;
+        text-justify: auto;
+        
+        
+        
+       
+    }
+    
+    .portada1 h3{
+    
+        /* line-height: 5em; */
+        font-family: 'Roboto';
+        font-weight: 100;
+        font-size: 1.5em;
+        margin: 0 auto;
+        position: absolute;
+        bottom: 44px;
+    }
+    
+    .portada1 h4{
+    
+        /* line-height: 1.5em; */
+        font-style: italic;
+        font-family: 'Roboto';
+        font-weight: 100;
+        margin: 0em 1em;
+       
+    
+    }
+
+
+    .wrapper1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    
+
+    }
+
+
+    #conoceme{
+        margin-top: 10px;
+        margin-right: 5px;
+        margin-left: 10px;
+        margin-bottom: 2px;
+        
+
+    }
+
+    #conoceme p{
+
+        /* border: 1px solid rgb(255, 0, 0); */
+        line-height: 2em;
+        font-size: 1.0em;
+        font-family: 'Roboto';
+        font-weight: 200;
+        padding: 20px 0;
+        margin: 0 25px;
+    
+    }
+
+    #misPericias{
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-left: 5px;
+        margin-bottom: 2px;
+    }
+
+    #misPericias h3{
+
+        margin:10px 30px;
+    }
+
+
+    #misPericias p{
+
+        margin:0 40px;
+    }
+
+    #servicios{
+        
+        padding: 30px;
+    
+    }
+
+    .servicios{
+
+        display:flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .servicios hr{
+
+        margin: 50px;
+    }
+
+    .servicios p{
+
+       margin: 0px 40px;
+
+    
+    }
+
+
+}
+
+}
+
